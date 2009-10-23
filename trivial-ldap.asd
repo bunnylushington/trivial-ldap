@@ -3,6 +3,6 @@
 
 
 (defsystem :trivial-ldap
-  :version "0.91"
+  :version "0.92"
   :components ((:file "trivial-ldap"))
   :depends-on (usocket cl+ssl))

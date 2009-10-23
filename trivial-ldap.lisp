@@ -1,4 +1,4 @@
-;;;; TRIVIAL-LDAP v0.91 -- a one file, all lisp client implementation of
+;;;; TRIVIAL-LDAP v0.92 -- a one file, all lisp client implementation of
 ;;;; parts of RFC 2261.  
 
 ;;;; Please see the trivial-ldap.html file for documentation and limitations.
@@ -11,6 +11,8 @@
 ;;;; should have accompanied this file.
 
 ;;;; Kevin Montuori <montuori@gmail.com>
+
+#+xcvb (module ())
 
 (defpackage :trivial-ldap
     (:use :cl-user :common-lisp :usocket)
